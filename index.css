@@ -1,0 +1,43 @@
+.head
+{
+    text-align: center;
+}
+.wrap
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 20px;
+}
+.sec_1
+{
+    height: 30rem;
+    width: 100%;
+    /* background-color: yellowgreen; */
+    position: relative;
+}
+.sec_2
+{
+    height: 30rem;
+    width: 100%;
+    /* background-color: violet; */
+    position: relative;
+}
+.img_1, .img_2
+{
+    padding-top: 2rem;
+    height: 60%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.button
+{
+    height: 3rem;
+    width: 20%;
+    margin: 0 auto;
+    display: block;
+    font-size: 1.2rem;
+    /* margin-top: 2rem; */
+    cursor: pointer;
+}
